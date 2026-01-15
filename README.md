@@ -120,3 +120,18 @@ Optional Best Practice documentation steps:
 CodeGrade will use the same test suite as the test suite included.
 
 Once all tests are passing, commit and push your work using `git` to submit to CodeGrade through Canvas.
+
+
+# Flask Pagination Lab
+
+This project implements a paginated `/books` API endpoint using Flask and SQLAlchemy.
+
+The endpoint supports query parameters for pagination:
+- `page` (default: 1)
+- `per_page` (default: 5)
+
+All tests are passing successfully.
+
+## Test Results
+
+![Screenshot](screenshot.png)
